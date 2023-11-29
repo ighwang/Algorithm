@@ -4,12 +4,10 @@ class Solution {
         
         while(true){
             if((answer*6)%n==0){
-                break;
+                return answer;
             }else{
                 answer++;
             }    
         }
-        
-        return answer;
     }
 }
